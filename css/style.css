@@ -1,4 +1,9 @@
-body{
+/* base classes */
+.display-inline-block{
+	display: inline-block;
+}
+/* base classes */
+body.yellow{
 	background-color: yellow;
 }
 .wrapper{
@@ -18,3 +23,39 @@ body{
 .par{
 	margin-top: 30px;
 }
+
+.logo{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 100px;
+
+}
+.navigation{
+	margin-left: 30px;
+	margin-top: 22.5px;
+}
+.navigation-a{
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	display: inline-block;
+	text-decoration: none;
+	/*border: 5px solid red;*/
+}
+.banner-section{
+	margin-top: 22.5px;
+	margin-left: 30px;
+}
+.banner-img{
+	width: 1170px;
+}
+/* footer */
+.divider{
+	height: 30px;
+	width: 3px;
+	background-color: #3D58A6;
+	margin: auto 30px;
+}
+.social-img{
+	height: 30px;
+}
+/* footer */
