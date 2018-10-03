@@ -39,7 +39,12 @@ body.yellow{
 	padding-bottom: 7.5px;
 	display: inline-block;
 	text-decoration: none;
+	font-family: "ninoBold";
+	color:red;
 	/*border: 5px solid red;*/
+}
+.navigation-a.active{
+	color: blue;
 }
 .banner-section{
 	margin-top: 22.5px;
@@ -48,6 +53,24 @@ body.yellow{
 .banner-img{
 	width: 1170px;
 }
+.navigation-li .test{
+	font-family: "ingiroArial";
+	/*font-family: "BPG Ingiri Arial", sans-serif;*/
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+.test2{
+	color: red;
+}
+
+.test1 > .test1{
+	color: blue;
+	width: 500px;
+	background-color: red;
+}
+.test .test2{
+	font-family: "ninoBold";
+}
+
 /* footer */
 .divider{
 	height: 30px;
