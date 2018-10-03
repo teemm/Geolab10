@@ -6,7 +6,7 @@
 body.yellow{
 	background-color: yellow;
 }
-.wrapper{
+.wrapper, .container{
 	margin: 30px auto auto 30px;
 }
 .red{
@@ -25,30 +25,37 @@ body.yellow{
 }
 
 .logo{
-	margin-top: 30px;
-	margin-left: 30px;
 	width: 100px;
-
+	display: inline-block;
+	vertical-align: middle;
 }
 .navigation{
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation-ul{
 	margin-left: 30px;
-	margin-top: 22.5px;
+}
+.navigation-li{
+	display: inline-block;
 }
 .navigation-a{
-	padding-top: 7.5px;
-	padding-bottom: 7.5px;
 	display: inline-block;
 	text-decoration: none;
 	font-family: "ninoBold";
-	color:red;
+	color: #3D58A6;
+	font-size: 22px;
+	line-height: 22px;
+	padding-top:7px; 
+	padding: 7px 7.5px 0 7.5px;
 	/*border: 5px solid red;*/
 }
 .navigation-a.active{
-	color: blue;
+	color: #EE4036;
+	/*color: rgb(238, 64, 54);*/
 }
 .banner-section{
 	margin-top: 22.5px;
-	margin-left: 30px;
 }
 .banner-img{
 	width: 1170px;
@@ -72,6 +79,9 @@ body.yellow{
 }
 
 /* footer */
+.footer{
+	margin-top: 30px;
+}
 .divider{
 	height: 30px;
 	width: 3px;
@@ -82,3 +92,22 @@ body.yellow{
 	height: 30px;
 }
 /* footer */
+
+/* conact conainer */
+.text-container{
+	text-align: center;
+	padding: 150px 0;
+}
+.text-container .title{
+	color: #3D58A6;
+	font-family: "ninoBold";
+	font-size: 20px;
+}
+.contact-li span{
+	color: #808080
+}
+.contact-li{
+	font-family: "ingiroArial";
+	color: #000000;
+}
+/* conact conainer */

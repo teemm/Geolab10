@@ -8,7 +8,7 @@
          url('../fonts/bpgninomtavruliboldwebfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
 }
 
-/*@font-face{
+@font-face{
 	font-family: "ingiroArial";
 	src: url("../fonts/bpg-ingiri-arial-webfont.ttf");
 	src: url('../fonts/bpg-ingiri-arial-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -16,4 +16,4 @@
          url('../fonts/bpg-ingiri-arial-webfont.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/bpg-ingiri-arial-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/bpg-ingiri-arial-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
-}*/
+}
