@@ -1,2 +1,0 @@
-# Geolab10
-descriotpion
