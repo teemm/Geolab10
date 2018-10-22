@@ -1,4 +1,4 @@
-/* base clasees */
+ base clasees */
 .float-right{
 	float: right;
 }
@@ -22,41 +22,34 @@
 .relative{
 	position: relative;
 }
+.d-flex{
+	display: flex;
+}
 /* base clasees */
 body{
-	padding-top: 74px;
+	padding-top: 100px;
 }
 /* header styles*/
-.header{
-	padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: #fff;
-    z-index: 40;
-}
 .logo{
 	width: 100px;
 }
-.social-li:after{
+.header-wrapper{
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+}
+.social-a:after{
 	content: "";
 	width: 3px;
 	height: 30px;
-	display: inline-block;
-	vertical-align: middle;
 	background-color: #3D58A6;
 	margin: auto 15px;
 }
-.social-li.search:after{
+.social-li.search .social-a:after{
 	display: none;
 }
 .social-a img{
 	height: 30px;
-}
-.nav{
-	margin-right: 160px;
-	margin-top: 3px;
 }
 .navigation-a{
 	font-size: 24px;
@@ -64,11 +57,20 @@ body{
 	color: #3D58A6;
 	padding: 0 15px;
 }
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	height: 100px;
+	z-index: 500;
+}
 /* header styles*/
 
 /* banner section */
-.class-for-hover:hover .banner-ul{
-	bottom: -200px;
+/*.class-for-hover:hover .banner-ul{*/
+	/*bottom: -200px;*/
 }
 .banner-img + .banner-ul{
 	background-color: red;
@@ -135,4 +137,50 @@ body{
 		transform: rotate(360deg);
 	}
 }
-/* banner section */
+/* banner section 
+
+/* video secion */
+.video-section{
+	background-color: #363E97;
+	padding-bottom: 90px;
+}
+.video-title{
+	color: #fff;
+	font-size: 24px;
+	padding: 35px 0;
+	font-family: "ninoBold";
+}
+.video-title:hover a{
+	color: #EE4036;
+}
+.video-title span{
+	padding-top: 5px;
+}
+.video-title a{
+	color: #fff;
+	font-family: "ingiroArial";
+	margin-left: 10px;
+	transition: color .3s linear;
+}
+.video h1{
+	position: absolute;
+    transform: translate(-50%, 50%);
+    top: 50%;
+    left: 50%;
+}
+.video-wrapper{
+	justify-content: space-between;
+}
+.video:hover{
+	border: 15px solid #000;
+	/*left:0;*/
+}
+.video{
+	transition: border 3s linear;
+	border: 15px solid transparent;
+	width: 570px;
+	/*right: 0;*/
+	height: 320px;
+	background-color: #fff;
+}
+/* video secion */
